@@ -8,12 +8,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginPageObjectTest extends TestBase {
+public class LoginPageTest extends TestBase {
     LoginPageAction loginpageaction;
     HomePageObject homepage;
     //LoginPageObject loginpageaction;
 
-    public LoginPageObjectTest()
+    public LoginPageTest()
     {super();
     }
 
